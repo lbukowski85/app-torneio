@@ -1,4 +1,4 @@
-# app-invillia
+# app-torneio
 API Rest para Torneios com autenticação JWT
 
 # deploy:
