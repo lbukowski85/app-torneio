@@ -17,12 +17,6 @@ exports.create = (req, res) => {
             message: "body não pode estar vazio"
         });
     }
-    // user.verifyUser(obj.name, function(err, rows) {
-    //     if (rows.length > 0) {
-    //       res.send({
-    //         res: "usuário já cadastrado"
-    //       })
-    //     } else {
     const torneio = new torneios({
         nome: req.body.nome, 
         descricao: req.body.descricao
